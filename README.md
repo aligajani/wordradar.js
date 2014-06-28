@@ -15,5 +15,21 @@ The inspiration largely comes from the gorgeous Medium.com.
 
 ### Usage
 
-To use the library, simply embed **wordradar.js** in your HTML.
+To use the library, simply embed **wordradar.js** in your HTML, as shown below.
+
+`<script src="wordradar.js"></script>`
+
+Then, add the ID `word_radar` to the element you want Wordradar to track, e.g:
+
+`<p id="word_radar"> Your Large Paragraph </p>`
+
+Once that's done, add the ID `word_radar_time` to an element you want, e.g:
+
+`<p id="word_radar_time"> </p>`
+
+This will show the time in minutes or seconds for the text you tagged.
+
+
+
+
 
