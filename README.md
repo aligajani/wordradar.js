@@ -11,7 +11,7 @@ The inspiration largely comes from the gorgeous Medium.com.
 
 ### Value
 
-> Average human reading speed of 150 wpm is used. Tried it!
+> Average human reading speed on a screen of 150 wpm is used. Tried it!
 
 ### Usage
 
