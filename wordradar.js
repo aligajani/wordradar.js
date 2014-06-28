@@ -29,7 +29,7 @@ THE SOFTWARE.
 window.onload=function(){
 var words = document.getElementById('word_radar').innerHTML;
 var count = words.split(' ').length;
-var average = 275;
+var average = 150;
 
 var reading = function (count) {
     var readingSeconds = (count * 60) / average;
