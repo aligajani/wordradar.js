@@ -3,6 +3,10 @@ wordradar.js
 
 A Pure Javascript library to display content reading time. 
 
+### Demo
+
+You can check the demo by clicking [here](http://aligajani.github.io/wordradar.js/)
+
 ### Inspiration
 
 The inspiration largely comes from the gorgeous Medium.com.
