@@ -17,17 +17,30 @@
 		}
 
 		.fancy {
-			color:purple;
-			font-size: 2.5em;
+			color:black;
+			font-size: 1.5em;
 			font-weight: bold;
+			margin-left: 0px;
+			line-height: 0.4em;
+			float:right;
 		}
 
-		hr { 
-			width:920px;
-			border-top: 1px solid lightgrey;
+
+		.line { 
+			padding-top:60px;
+			border-bottom: 1px solid lightgrey;
 		}
 
 		blockquote {
+			float:left;
 			font-size: 1.5em;
-			color:tomato;
+			color:teal;
+			margin-left: 0px;
+			line-height: 0em;
 		}
+
+		h1 { 
+			color:#bc7218;
+		}
+	
+
