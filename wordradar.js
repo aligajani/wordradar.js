@@ -38,7 +38,13 @@ var reading = function (count) {
         return (Math.round(readingSeconds)+" seconds");
     } else if (readingSeconds >60) {
         var readingMinutes = readingSeconds/60;
-        return (Math.round(readingMinutes)+" minutes");
+        var r_r_m = Math.round(readingMinutes);
+	        if (r_r_m < 2) {
+	        return (r_r_m+" minute");
+	    	} else {
+	        return (r_r_m+" minutes");	
+	    	}
+
     } else {
         return false;
     }
