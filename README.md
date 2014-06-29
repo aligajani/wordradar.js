@@ -5,7 +5,7 @@ A Pure Javascript library to display content reading time.
 
 ### Demo
 
-You can check the demo by clicking [here](http://aligajani.github.io/wordradar.js/)
+You can check the demo by clicking [here](http://aligajani.github.io/wordradar.js/).
 
 ### Inspiration
 
