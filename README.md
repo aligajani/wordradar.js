@@ -7,7 +7,7 @@ A Pure Javascript library to display content reading time.
 
 The inspiration largely comes from the gorgeous Medium.com.
 
-![Alt text](http://i.imgur.com/GuynzPt.png)
+![Alt text](http://i.imgur.com/GuynzPt.png =100x20).
 
 ### Value
 
