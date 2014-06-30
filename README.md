@@ -13,7 +13,7 @@ You can check the demo by clicking [here](http://aligajani.github.io/wordradar.j
 
 The inspiration largely comes from the gorgeous Medium.com.
 
-![Alt text](http://i.imgur.com/GuynzPt.png =100x20).
+![Alt text](http://i.imgur.com/6vWXrBK.jpg).
 
 ### Data-* Values
 
