@@ -26,19 +26,23 @@ Please submit ideas on how we can improve Wordradar.js.
 
 > Wordradar.js uses data-* attributes for the sake of robustness.
 
-If you want the `minutes` to be represented in short as `mins`, apply:
+##### Text Type
 
-`data-text-type="min"` to the element with your text. Default is `min`.
+For text to appear as **minutes**, use `data-text-type="minute"`.
 
-Next up, if you want to adjust the reading WPM value, we have three options:
+For text to appear as **mins**, use `data-text-type="min"` (default).
 
-If you use `data-content-type="prose"` then `150wpm` will be used.
+##### Words Per Minute
 
-Alternatively, if you use `data-content-type="blog"`, `250wpm` will used.
+If you want to adjust the reading WPM (words per minute) value, read below.
 
-The default value is `200wpm`. Both of these values are research backed and tested.
+For **prose**, use `data-content-type="prose"`. Value of `150wpm` will be used.
 
-You can wish to omit the `data-*` attributes - Wordradar.js functions on defaults.
+For **blog**, use `data-content-type="blog"`. Value of `250wpm` will used.
+
+The default value is `200wpm`. Both of these values are research backed and tested!
+
+> You can wish to omit the `data-*` attributes - Wordradar.js uses defaults.
 
 For the current demo, this is how the markup looks like:
 
