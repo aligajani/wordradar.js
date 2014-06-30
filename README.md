@@ -35,7 +35,6 @@ For the current demo, this is how the markup looks like:
 
 `<p class="fancy" data-text-type="min" data-content-type="prose"  id="word_radar_time"> </p>`.
 
-
 ### Usage
 
 To use the library, simply embed **wordradar.js** in your HTML, as shown below.
