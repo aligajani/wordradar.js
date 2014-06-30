@@ -3,6 +3,8 @@ wordradar.js
 
 A Pure Javascript library to display content reading time. 
 
+> Please see below for usage and customization.
+
 ### Demo
 
 You can check the demo by clicking [here](http://aligajani.github.io/wordradar.js/).
@@ -23,7 +25,7 @@ If you want the `minutes` to be represented in short as `mins`, apply:
 
 Next up, if you want to adjust the reading WPM value, we have three options:
 
-If you use `data-content-type="prose"` `150wpm` will be used.
+If you use `data-content-type="prose"` then `150wpm` will be used.
 
 Alternatively, if you use `data-content-type="blog"`, `250wpm` will used.
 
