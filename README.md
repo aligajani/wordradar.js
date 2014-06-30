@@ -55,7 +55,6 @@ You can wish to omit the `data-*` attributes - Wordradar.js functions on default
 
 For the current demo, this is how the markup looks like:
 
->>>>>>> e6f68123ba99c072068f44a61c7d2062a99448cf
 `<p class="fancy" data-text-type="min" data-content-type="prose"  id="word_radar_time"> </p>`.
 
 ### Usage
