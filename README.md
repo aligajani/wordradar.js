@@ -13,9 +13,27 @@ The inspiration largely comes from the gorgeous Medium.com.
 
 ![Alt text](http://i.imgur.com/GuynzPt.png =100x20).
 
-### Value
+### Data-* Values
 
-> Average human reading speed on a screen of 150 wpm is used. Tried it!
+> Wordradar.js uses data-* attributes for the sake of robustness.
+
+If you want the `minutes` to be represented in short as `mins`, apply:
+
+`data-text-type="min"` to the element with your text. Default is `min`.
+
+Next up, if you want to adjust the reading WPM value, we have three options:
+
+If you use `data-content-type="prose"` `150wpm` will be used.
+
+Alternatively, if you use `data-content-type="blog"`, `250wpm` will used.
+
+The default value is `200wpm`. Both of these values are research backed and tested.
+
+You can wish to omit the `data-*` attributes - Wordradar.js functions on defaults.
+
+For the current demo, this is how the markup looks like:
+
+`<p class="fancy" data-text-type="min" data-content-type="prose"  id="word_radar_time"> </p>`.
 
 ### Usage
 

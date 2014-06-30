@@ -27,9 +27,26 @@ THE SOFTWARE.
 */
 
 window.onload=function(){
+
 var words = document.getElementById('word_radar').innerHTML;
+var text = document.getElementById("word_radar_time");
 var count = words.split(' ').length;
-var average = 150;
+var def = 200;
+var average;
+
+//get data-* value for content type
+var contentType = text.getAttribute("data-content-type");
+    if (contentType=="prose") {
+        average = 150;
+    } else if (contentType=="blog") {
+        average = 250;
+    } else {
+        average = def;
+    }
+
+
+//get data-* value
+var textType = text.getAttribute("data-text-type");
 
 var reading = function (count) {
     var readingSeconds = (count * 60) / average;
@@ -39,16 +56,32 @@ var reading = function (count) {
     } else if (readingSeconds >60) {
         var readingMinutes = readingSeconds/60;
         var r_r_m = Math.round(readingMinutes);
-	        if (r_r_m < 2) {
-	        return (r_r_m+" minute");
-	    	} else {
-	        return (r_r_m+" minutes");	
-	    	}
+	        
+        //observe data-* value 
+        if (textType=="minute") {
+                if (r_r_m < 2) {
+    	        return (r_r_m+" minute");
+    	    	} 
+                else {
+    	        return (r_r_m+" minutes");	
+    	    	}
+
+        //default always shows mins
+        } else{
+                if (r_r_m < 2) {
+                return (r_r_m+" min");
+                } 
+                else {
+                return (r_r_m+" mins");  
+                }
+        }
 
     } else {
         return false;
     }
 
 }
+
 document.getElementById('word_radar_time').innerHTML=reading(count);
+
 };
