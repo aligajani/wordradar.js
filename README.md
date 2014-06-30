@@ -15,6 +15,13 @@ The inspiration largely comes from the gorgeous Medium.com.
 
 ![Alt text](http://i.imgur.com/6vWXrBK.jpg).
 
+### Contributors
+
+Please submit ideas on how we can improve Wordradar.js. 
+
+- Internationalization
+- More features such as advanced customization
+
 ### Data-* Values
 
 > Wordradar.js uses data-* attributes for the sake of robustness.
